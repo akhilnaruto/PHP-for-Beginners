@@ -16,6 +16,6 @@ if($isNavigationClicked){
 $pageData->content .= include_once "views/$fileToLoad.php";  //observer .= , its for concatication
 $pageData->css = "<link href='css/layout.css' rel='stylesheet' />";
 $page = include_once "templates/page.php";
-echo $pag;
+echo $page;
 
 
