@@ -17,3 +17,5 @@ $pageData->content .= include_once "views/$fileToLoad.php";  //observer .= , its
 $pageData->css = "<link href='css/layout.css' rel='stylesheet' />";
 $page = include_once "templates/page.php";
 echo $page;
+
+
